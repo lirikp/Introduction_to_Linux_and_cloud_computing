@@ -1,0 +1,24 @@
+ubuntu@ip-172-31-42-252:~$ history
+    1  pwd
+    2  ll
+    3  mkdir first second
+    4  ll
+    5  touch first/first.py second/second.py
+    6  ll first/ second/
+    7  cmod u+x first/first.py second/second.py
+    8  chmod u+x first/first.py second/second.py
+    9  ll first/ second/
+   10  echo 'print(1)' > first/first.py
+   11  first/first.py
+   12  python3 first/first.py
+   13  echo 'print(2)' > second/second.py
+   14  cat second/second.py
+   15  python3 second/second.py
+   16  mv second/second.py first/
+   17  ll second/
+   18  rm -rf second
+   19  rm -rf first_second/
+   20  ll
+   21  history
+ubuntu@ip-172-31-42-252:~$
+
